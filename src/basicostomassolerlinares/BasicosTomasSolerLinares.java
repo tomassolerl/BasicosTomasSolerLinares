@@ -11,11 +11,21 @@ package basicostomassolerlinares;
  */
 public class BasicosTomasSolerLinares {
 
-    /**
-     * @param args the command line arguments
-     */
+    public static void logicos(int num){
+        boolean logico;
+        int valor = num;
+        logico = valor == 'a';
+        
+        if (logico==true){
+            System.out.println("El valor de lógico es true");
+        }
+        else{
+            System.out.println("El valor de lógico es false");
+        }
+    }
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+        logicos(96);
     }
     
 }
