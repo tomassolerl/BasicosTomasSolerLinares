@@ -11,11 +11,16 @@ package basicostomassolerlinares;
  */
 public class BasicosTomasSolerLinares {
 
-    /**
-     * @param args the command line arguments
-     */
+    public static void cadenas(){
+        String cadena;
+        
+        cadena="Cadena de texto.";
+        
+        System.out.println(cadena);
+    }
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+        cadenas();
     }
     
 }
