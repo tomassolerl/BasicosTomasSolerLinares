@@ -33,10 +33,18 @@ public class BasicosTomasSolerLinares {
         System.out.println(entero);
         System.out.println("Valor doble");
         System.out.println(doble);
+        }
+    public static void cadenas(){
+        String cadena;
+        
+        cadena="Cadena de texto.";
+        
+        System.out.println(cadena);
     }
     
     public static void main(String[] args) {
         numericos();
+        cadenas();
     }
     
 }
